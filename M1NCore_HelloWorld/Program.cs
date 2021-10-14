@@ -47,7 +47,9 @@ namespace M1NCore_HelloWorld
             var busqueda = listado.Where(luis => luis.dni == "33443311").FirstOrDefault();
 
             Console.WriteLine("La persona encontrada es: " + busqueda.nombre);
-            Console.WriteLine("********************************"); 
+            Console.WriteLine("********************************");
+
+            Console.WriteLine("Esta es una modificación");
 
         }
     }
